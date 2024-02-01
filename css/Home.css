@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #065206;
+    margin: 0;
+    padding: 0;
+}
+
+#template {
+    height: 83vh;
+    margin: 10px auto;
+    outline-color: rgb(9, 97, 197);
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav p {
+    color: #d3d3d3;
+    text-align: right;
+    line-height: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    background: white;
+}
+
+#left-content {
+    height: 100%;
+    width: 20%;
+    float: left;
+    border-top: 10px solid #ff7f00;
+    border-right: 10px solid #ff7f00;
+    background: #065206;
+}
+
+.anggota {
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+    padding: 5px 10px;
+}
+
+.input-anggota  {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 3px;
+    width: 98%;
+}
+.input-anggota a{
+    text-decoration: none;
+    color: white;
+}
+
+.laporan {
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+    padding: 5px 10px;
+}
+
+.laporan-anggota  {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-left: 3px;
+    width: 98%;
+    outline: none;
+}
+.laporan-anggota a{
+    text-decoration: none;
+    color: white;
+}
+
+.input-anggota:hover {
+    background-color: #555;
+    color: white;
+}
+
+.laporan-anggota:hover {
+    background-color: #555;
+    color: white;
+}
+#right-content {
+    margin-top: 10px;
+    height: 100%;
+    width: 99.5%;
+    border-top: 10px solid #ff7f00;
+    border-left: 10px solid #ff7f00;
+    background: #3CB371;
+}
+
+img {
+    height: 60%;
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 260px;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #ffcf55;
+    border: 2px solid #45a049;
+}
